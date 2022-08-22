@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mohamed Said portfolio .I'm a fullstack developer"
+    />
+    <!-- link css file  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!-- link icons of ionicons page -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- link js file -->
+    <script defer src="script.js"></script>
+    <!-- solve this problem -->
+    <!-- link the img of logo to the title -->
+    <!-- <link rel="icon" href="img/my logo.png" sizes="32x32" type="image/png" /> -->
+    <link rel="icon" href="img/my-logo.png" />
+    <!-- title of the page -->
+    <title>Mohamed Said | Portfolio</title>
+  </head>
+  <body>
+    <!-- Background Circles start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+      <div class="circle-5"></div>
+    </div>
+
+  
+    <!-- Background Circles end -->
+    <!-- Overlay start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+
+    <!-- Home page  -->
+    <div class="main ">
+
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button class="nav-toggler" type="button"><span></span></button>
+        </div>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul >
+              <li><a class="nav-item link-item" href="#home">Home</a></li>
+              <li><a class="nav-item link-item" href="#about">About</a></li>
+              <li>
+                <a class="nav-item link-item" href="#portfolio">Portfolio</a>
+              </li>
+              <li><a class="nav-item link-item " href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+      <section class="home-section align-item-center active " id="home">
+        <div class="container">
+          <div class="row align-item-center">
+            <!--  flex //// -->
+            <div class="home-text">
+              <p>Hello , I 'm</p>
+              <h1>Mohamed Said</h1>
+              <h2>frontend web developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+
+            <div class="home-img">
+              <div class="img-box">
+                <img src="/img/my-photo.png" alt="my-logo" />
+                <!-- <img src="/img/my-logo2.png" alt="my-logo" /> -->
+              </div>
+              <div class="img-box">
+                <!-- <img src="/img/my-photo.png" alt="my-logo" /> -->
+                <img src="/img/my-logo2.png" alt="my-logo" />
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+      <!-- Home page End -->
+
+      <!------------------- 
+        About section start 
+      ------------------->
+      <section class="about-section " id="about">
+        <div class="container">
+          <div class="row">
+            <!--  -->
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/my-photo.png" alt="me" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Hi my name is Mohamed Said. I am a student at faculty of
+                Engineering -Electrical Department (Zagazig University).I am
+                interested in Programming so i started learning Web development
+                at youtube then i join Kalbonyan Elmarsos Internship, and it
+                gave me the right way to be a fullstack developer.
+              </p>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Nodejs</div>
+                <div class="skill-item">AWS</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  class="tab-item active"
+                  type="button"
+                  data-target="#education"
+                >
+                  Education
+                </button>
+                <button
+                  class="tab-item"
+                  type="button"
+                  data-target="#experience"
+                >
+                  Experience
+                </button>
+              </div>
+
+              <!-- Education start  -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <!--  -->
+                  <div class="timeline-item">
+                    <span class="date">2020 : 2024</span>
+                    <h4>Faculty of Engineering - Zagazig university</h4>
+                    <p>Electrical Department</p>
+                  </div>
+
+                  <!--  -->
+                  <div class="timeline-item">
+                    <span class="date">2020 : 2024</span>
+                    <h4>Faculty of Engineering - Zagazig university</h4>
+                    <p>Electrical Department</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!-- Experience start  -->
+              <div class="tab-content" id="expeirense">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2022</span>
+                    <h4>Kalbonyan Elmarsos Internship</h4>
+                    <p>Learn Programing Fundamentals ,HTMl and CSS</p>
+                    <p>Learn MERN Stack</p>
+                    <p>
+                      Learn How to Deploy your web applications with Cloud
+                      Provider (AWS)
+                    </p>
+                    <p>Learn How to Make serverless web applications</p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <!-- ! add your cv name -->
+              <a href="cv.pdf" target="_blank" class="btn">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------- 
+        About section start 
+      ------------------->
+      <section class="portfolio-section " id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+            <!-- 
+              profile item start
+             -->
+            <div class="portfolio-items">
+              <div class="row">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/portfolio/omino-food.png"
+                      alt="project of food app"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Omino Food project</h3>
+                  <button type="button" class="btn view-project-btn">
+                    view project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        Omino Food project is an app food for a restaurant. It
+                        is a tutorial with HTML and css
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>3 Jun 2022</span></li>
+                        <li>technologies used - <span>HTML, Css</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                        <li>
+                          view Online -
+                          <span
+                            ><a
+                              href="https://ominofood-mosaid.netlify.app"
+                              target="_blank"
+                              >www.domain.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  end of item-->
+              <!-- 
+              profile item start
+             -->
+              <div class="row">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/portfolio/react-meals.png"
+                      alt="portfolio thump"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">ReactMeals project</h3>
+                  <button type="button" class="btn view-project-btn">
+                    view project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        ReactMeals project is a project with React. You can
+                        order any thing from it.
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>2 Aug 2022</span></li>
+                        <li>technologies used - <span>React</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                        <li>
+                          view Online -
+                          <span
+                            ><a
+                              href="https://section17.netlify.app/"
+                              target="_blank"
+                              >www.domain.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  end of item-->
+              <!-- 
+              profile item start
+             -->
+              <div class="row">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/leon.png" alt="portfolio thump" />
+                  </div>
+                  <h3 class="portfolio-item-title">Leon project</h3>
+                  <button type="button" class="btn view-project-btn">
+                    view project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        Leon project is online free tutorial with HTML and css
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>8 Jun 2022</span></li>
+                        <li>technologies used - <span>HTML, Css</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                        <li>
+                          view Online -
+                          <span
+                            ><a
+                              href="https://leon-mosaid.netlify.app"
+                              target="_blank"
+                              >www.domain.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  end of item-->
+              <!-- 
+              profile item start
+             -->
+              <div class="row">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/leon.png" alt="portfolio thump" />
+                  </div>
+                  <h3 class="portfolio-item-title">Leon project</h3>
+                  <button type="button" class="btn view-project-btn">
+                    view project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        Leon project is online free tutorial with HTML and css
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>8 Jun 2022</span></li>
+                        <li>technologies used - <span>HTML, Css</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                        <li>
+                          view Online -
+                          <span
+                            ><a
+                              href="https://leon-mosaid.netlify.app"
+                              target="_blank"
+                              >www.domain.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  end of item-->
+              <!-- 
+              profile item start
+             -->
+              <div class="row">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/leon.png" alt="portfolio thump" />
+                  </div>
+                  <h3 class="portfolio-item-title">Leon project</h3>
+                  <button type="button" class="btn view-project-btn">
+                    view project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        Leon project is online free tutorial with HTML and css
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>8 Jun 2022</span></li>
+                        <li>technologies used - <span>HTML, Css</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                        <li>
+                          view Online -
+                          <span
+                            ><a
+                              href="https://leon-mosaid.netlify.app"
+                              target="_blank"
+                              >www.domain.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  end of item-->
+              <!-- 
+              profile item start
+             -->
+              <div class="row">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/leon.png" alt="portfolio thump" />
+                  </div>
+                  <h3 class="portfolio-item-title">Leon project</h3>
+                  <button type="button" class="btn view-project-btn">
+                    view project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        Leon project is online free tutorial with HTML and css
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>8 Jun 2022</span></li>
+                        <li>technologies used - <span>HTML, Css</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                        <li>
+                          view Online -
+                          <span
+                            ><a
+                              href="https://leon-mosaid.netlify.app"
+                              target="_blank"
+                              >www.domain.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  end of item-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!-- contact start section-->
+       <section class="contact-section " id="contact">
+        <div class="container">
+        <div class="row">
+        <div class="section-title">
+        <h2>contact me</h2>
+        </div>
+        </div>
+        <div class="row">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="input-group">
+                <input type="text"placeholder="Name"class="input-control"required>
+                </div>
+                <div class="input-group">
+                <input type="text"placeholder="Email"class="input-control"required>
+                </div>
+                <div class="input-group">
+                <input type="text"placeholder="Subject"class="input-control"required>
+                </div>
+                <div class="input-group">
+                <textarea placeholder="Message"class="input-control"required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button type="submit" class="btn">Send message</button>
+                </div>
+            </div>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>ms277712@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+            <h3>Phone</h3>
+            <p>01206184802</p>
+            </div>
+            <div class="contact-info-item">
+            <h3>follow me</h3>
+            <div class="social-links">
+            <a href="#"target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#"target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#"target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        </div>
+        </div>
+        </section> 
+      
+        
+      <!-- contact end section-->
+    </div>
+    <!--main end  -->
+
+    <!-- portfolio item details start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/leon.png" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+            <div class="pp-body"> 
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio item details end -->
+    
+  </body>
+</html>
