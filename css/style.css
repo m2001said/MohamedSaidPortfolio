@@ -274,6 +274,7 @@ button {
   top: 40%;
   right: -60px;
   opacity: 0.6;
+  animation: zoomInOut 8s linear infinite;
 }
 .bg-circles .circle-4 {
   height: 50px;
@@ -282,6 +283,7 @@ button {
   top: 80%;
   left: 1rem;
   opacity: 0.6;
+  animation: bounceTop 5s ease-in-out infinite;
 }
 
 /* overlay */
@@ -855,7 +857,7 @@ responsive
 }
 @media (max-width: 767px) {
   .about-img {
-    width: 50%;
+    width: 70%;
   }
   .contact-form,
   .contact-info,
@@ -884,6 +886,9 @@ responsive
   }
 }
 @media (max-width: 575px) {
+  .about-img {
+    width: 70%;
+  }
   .about-text {
     font-size: 1.1rem;
   }
@@ -891,7 +896,10 @@ responsive
     grid-template-columns: repeat(1, 1fr);
   }
   .header {
-    right: 0%;
-    top: 0%;
+    right: -9%;
+    top: -2%;
+  }
+  .section-title h2 {
+    font-size: 1.5rem;
   }
 }
