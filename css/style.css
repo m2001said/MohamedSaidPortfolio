@@ -896,8 +896,8 @@ responsive
     grid-template-columns: repeat(1, 1fr);
   }
   .header {
-    right: -9%;
-    top: -2%;
+    right: 0%;
+    top: 0%;
   }
   .section-title h2 {
     font-size: 1.5rem;
