@@ -93,4 +93,4 @@ document.addEventListener("click", (e) => {
     togglePortFolioPopup();
   }
 });
-// ------------item detail popup--------------------------//
+// ------------item detail popup end--------------------------//

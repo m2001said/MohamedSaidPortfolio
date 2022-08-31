@@ -689,9 +689,12 @@ button {
   background-color: var(--white-alpha-25);
   border: 1px solid var(--white-alpha-40);
   border-radius: 1rem;
+  /* width: 10rem;
+  height: 10rem; */
 }
 .portfolio-item-thumbnail img {
   width: 100%;
+  /* height: 10rem; */
   border-radius: 1rem;
 }
 .portfolio-item-details {
