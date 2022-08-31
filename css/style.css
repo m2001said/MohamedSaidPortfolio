@@ -491,10 +491,20 @@ button {
 .home-text p {
   font-size: 1.5rem;
 }
+/* -------------Name style -------- */
 .home-text h1 {
   font-size: 2rem;
-  text-transform: capitalize;
+  cursor: pointer;
 }
+.home-text h1 {
+  transition: 0.5s;
+}
+.home-text h1:hover {
+  color: var(--main-color);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff, 0 0 160px #fff;
+}
+/*  */
 .home-text h2 {
   font-size: 1.5rem;
   text-transform: capitalize;
@@ -826,80 +836,4 @@ button {
 .contact-info-item .social-links a:hover {
   color: var(--white);
   background-color: var(--main-color);
-}
-/* ----------------
-responsive
------------------- */
-
-@media (max-width: 991px) {
-  .container {
-    padding: 0;
-  }
-  .home-text,
-  .home-img {
-    width: 100%;
-  }
-  .home-text {
-    text-align: center;
-  }
-  .home-img {
-    order: -1;
-  }
-  .home-img .img-box {
-    max-width: 300px;
-  }
-  .home-text .btn {
-    margin: 0 2rem 2rem;
-  }
-  .about-text .btn {
-    margin: 0 2rem 1.3rem;
-  }
-}
-@media (max-width: 767px) {
-  .about-img {
-    width: 70%;
-  }
-  .contact-form,
-  .contact-info,
-  .about-text {
-    width: 80%;
-    font-size: 1.2rem;
-  }
-  .about-row {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .portfolio-items {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .contact-row {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
-  }
-  .contact-info {
-    order: -1;
-  }
-  .contact-form {
-    margin-bottom: 1.5rem;
-  }
-}
-@media (max-width: 575px) {
-  .about-img {
-    width: 70%;
-  }
-  .about-text {
-    font-size: 1.1rem;
-  }
-  .portfolio-items {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .header {
-    right: 0%;
-    top: 0%;
-  }
-  .section-title h2 {
-    font-size: 1.5rem;
-  }
 }

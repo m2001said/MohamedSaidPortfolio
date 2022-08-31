@@ -51,32 +51,6 @@ document.addEventListener("click", (e) => {
     }, 300);
   }
 });
-// ADD This when you have a lot of experience inshaallah
-// ------------about tabs--------------------------//
-// const tabsContainer = document.querySelector(".about-tabs");
-// const aboutSection = document.querySelector(".about-section");
-
-// tabsContainer.addEventListener("click", (e) => {
-//   if (
-//     e.target.classList.contains("tab-item") &&
-//     !e.target.classList.contains("active")
-//   ) {
-//     //go and remove active from the others (buttons)
-//     tabsContainer.querySelector(".active").classList.remove("active");
-//     e.target.classList.add("active");
-//     // !  aboutSection : remove active at the first time but does not add active to the other
-//     // go and remove active from the others (text-content)
-//     aboutSection
-//       .querySelector(".tab-content.active")
-//       .classList.remove("active");
-
-//     const target = e.target.getAttribute("data-target");
-//     console.log(aboutSection.querySelector(target));
-//     // ! all the problem to add class to the other
-//     aboutSection.querySelector(target).classList.add("active");
-//     // !
-//   }
-// });
 
 // ------------item detail popup--------------------------//
 document.addEventListener("click", (e) => {
