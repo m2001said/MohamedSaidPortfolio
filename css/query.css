@@ -66,10 +66,10 @@ responsive
   .portfolio-items {
     grid-template-columns: repeat(1, 1fr);
   }
-  .header {
-    right: 0%;
-    top: 0%;
-  }
+  /* .header {
+    right: 10px;
+    top: 10px;
+  } */
   .section-title h2 {
     font-size: 1.5rem;
   }
