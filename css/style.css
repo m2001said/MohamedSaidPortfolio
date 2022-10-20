@@ -348,8 +348,8 @@ button {
 /* header */
 .header {
   position: absolute;
-  right: 25px;
-  top: 15px;
+  right: 10px;
+  top: 10px;
   width: 100%;
   z-index: 1;
 }
